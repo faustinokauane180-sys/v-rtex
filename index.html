@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vórtex | Experiência Automotiva Suprema</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones externos (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO (NAVBAR) -->
+    <header class="navbar">
+        <div class="logo">VÓRTEX</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato" class="btn-contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SEÇÃO HERO (BOAS-VINDAS) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Sinta o Poder do Movimento</h1>
+            <p>Mais que velocidade. Uma força da natureza moldada em superesportivos.</p>
+            <a href="#modelos" class="btn-primary">Conhecer Modelos</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE DESTAQUES / ATRIBUTOS -->
+    <section class="features">
+        <div class="feature-box">
+            <i class="fa-solid fa-gauge-high"></i>
+            <h3>Alta Performance</h3>
+            <p>Motores calibrados para entregar o máximo de torque e velocidade máxima.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Segurança Avançada</h3>
+            <p>Tecnologia de frenagem e estabilidade testada nas pistas mais exigentes.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-charging-station"></i>
+            <h3>Híbridos & Elétricos</h3>
+            <p>O futuro da potência aliado à eficiência energética sustentável.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE MODELOS (CATÁLOGO) -->
+    <section id="modelos" class="catalog">
+        <div class="section-title">
+            <h2>Nossa Garagem</h2>
+            <p>Escolha a sua próxima dose de adrenalina</p>
+        </div>
+        <div class="cars-grid">
+            <!-- Carro 1 -->
+            <div class="car-card">
+                <div class="car-image img-car-1"></div>
+                <div class="car-info">
+                    <h3>Vórtex Hyperion</h3>
+                    <p class="specs">V8 Bi-Turbo | 750cv | 0-100 km/h em 2.6s</p>
+                    <span class="price">R$ 2.400.000</span>
+                    <a href="#" class="btn-car">Quero este</a>
+                </div>
+            </div>
+            <!-- Carro 2 -->
+            <div class="car-card">
+                <div class="car-image img-car-2"></div>
+                <div class="car-info">
+                    <h3>Vórtex Phantom (Elétrico)</h3>
+                    <p class="specs">Dual Motor | 820cv | Autonomia 650km</p>
+                    <span class="price">R$ 1.950.000</span>
+                    <a href="#" class="btn-car">Quero este</a>
+                </div>
+            </div>
+            <!-- Carro 3 -->
+            <div class="car-card">
+                <div class="car-image img-car-3"></div>
+                <div class="car-info">
+                    <h3>Vórtex Spectre GT</h3>
+                    <p class="specs">V10 Aspirado | 610cv | Tração Integral</p>
+                    <span class="price">R$ 3.100.000</span>
+                    <a href="#" class="btn-car">Quero este</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE NÓS -->
+    <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>A Engenharia por trás da Vórtex</h2>
+                <p>Fundada com a missão de redefinir os limites do design automotivo, a Vórtex combina engenharia aeroespacial com a paixão pelas pistas. Cada curva da nossa carroceria é desenhada para cortar o vento, e cada motor é montado à mão por especialistas.</p>
+                <p>Não construímos apenas carros. Criamos extensões da personalidade de quem não aceita o comum.</p>
+            </div>
+            <div class="about-image"></div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO -->
+    <section id="contato" class="contact">
+        <div class="contact-container">
+            <h2>Entre em Contato</h2>
+            <p>Agende um test drive exclusivo ou monte sua configuração personalizada.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu Nome Completo" required>
+                <input type="email" placeholder="Seu Melhor E-mail" required>
+                <select required>
+                    <option value="" disabled selected>Modelo de Interesse</option>
+                    <option value="hyperion">Vórtex Hyperion</option>
+                    <option value="phantom">Vórtex Phantom</option>
+                    <option value="spectre">Vórtex Spectre GT</option>
+                </select>
+                <textarea placeholder="Mensagem (Opcional)" rows="5"></textarea>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- RODAPÉ (FOOTER) -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">VÓRTEX</div>
+            <p>&copy; 2026 Vórtex Automotivos. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
